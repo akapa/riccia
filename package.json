@@ -4,8 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nf start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Richard Nagy <tubi.kapa@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akapa/riccia.git"
+  },
+  "devDependencies": {
+    "foreman": "2.0.0"
+  }
 }
